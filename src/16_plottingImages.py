@@ -1,7 +1,5 @@
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import tensorflow as tf
 
 df = pd.read_csv("train.csv")  # file has a header
 # if it is in another folder outside this, do this read_csv("../anotherFolder/train.csv")
